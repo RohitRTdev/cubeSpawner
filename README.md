@@ -1,5 +1,5 @@
 # cubeSpawner
-A silly 3d graphics playground that spawns 3d cubes and let's you control it 
+A silly 3d graphics playground that spawns 3d cubes on the console and let's you control it 
 
 ## Sample
 <img src="https://github.com/RohitRTdev/cubeSpawner/blob/origin/sample.png">
