@@ -80,7 +80,7 @@ struct coord {
 struct cube {
 	std::array<vertex, 8> vertices;
 	console& con;
-	static const bool projection = true;
+	static const bool projection = true; //Set this to false, if you don't want perspective projection
 
 
 	cube(vertex vert[], size_t N, console& active_con) : con(active_con){
