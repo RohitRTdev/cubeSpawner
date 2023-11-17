@@ -348,8 +348,6 @@ int main() {
 	while (1) {
 		scene.render();
 
-		char key;
-		std::cin >> key;
 		if (is_key_pressed(VK_LEFT)) {
 			scene.fetch_active_cube().shift(step_size, 0);
 		}
